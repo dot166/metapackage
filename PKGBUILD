@@ -22,5 +22,6 @@ makedepends=()
 #}
 
 package() {
+    chsh -s /bin/zsh
     npm install --global yarn
 }
