@@ -1,0 +1,7 @@
+post_install() {
+  chsh -s /bin/zsh
+}
+
+pre_remove() {
+  chsh -s /bin/bash
+}
