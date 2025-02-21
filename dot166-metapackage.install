@@ -1,7 +1,19 @@
+user_name=`echo ${SUDO_USER:-$(whoami)}`
+user_dir="/home/${user_name}"
+pre_install() {
+  echo "Backing up .zshrc"
+  mv "$user_dir/.zshrc" "$user_dir/.zshrc.old"
+}
+
 post_install() {
   chsh -s /bin/zsh
 }
 
 pre_remove() {
   chsh -s /bin/bash
+}
+
+post_remove() {
+  echo "Restoring old .zshrc"
+  mv "$user_dir/.zshrc.old" "$userdir/.zshrc"
 }
