@@ -48,7 +48,7 @@ pkgbase = dot166-metapackage
 	depends = otf-font-awesome
 	depends = kitty
 	depends = mission-center
-	depends = nautiuls
+	depends = nautilus
 	depends = gvim
 
 pkgname = dot166-metapackage
