@@ -29,7 +29,6 @@ pkgbase = dot166-metapackage
 	depends = qt5-wayland
 	depends = signal-desktop
 	depends = ntfs-3g
-	depends = gnome-text-editor
 	depends = rustrover
 	depends = rustrover-jre
 	depends = sddm
@@ -49,6 +48,6 @@ pkgbase = dot166-metapackage
 	depends = kitty
 	depends = mission-center
 	depends = nautilus
-	depends = gvim
+	depends = leafpad
 
 pkgname = dot166-metapackage
