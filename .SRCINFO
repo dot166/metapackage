@@ -27,7 +27,6 @@ pkgbase = dot166-metapackage
 	depends = gnome-characters
 	depends = gnome-disk-utility
 	depends = qt5-wayland
-	depends = gnome-system-monitor
 	depends = signal-desktop
 	depends = ntfs-3g
 	depends = gnome-text-editor
@@ -48,5 +47,8 @@ pkgbase = dot166-metapackage
 	depends = hyprshot
 	depends = otf-font-awesome
 	depends = kitty
+	depends = mission-center
+	depends = nautiuls
+	depends = gvim
 
 pkgname = dot166-metapackage
