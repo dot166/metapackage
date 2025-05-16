@@ -1,7 +1,7 @@
 pkgbase = dot166-metapackage
 	pkgdesc = metapackage for common applications and dotfiles
-	pkgver = 4
-	pkgrel = 4
+	pkgver = 5
+	pkgrel = 1
 	install = dot166-metapackage.install
 	arch = x86_64
 	license = GPL
@@ -25,9 +25,7 @@ pkgbase = dot166-metapackage
 	depends = zsh
 	depends = vi-vim-symlink
 	depends = gnome-characters
-	depends = gnome-console
 	depends = gnome-disk-utility
-	depends = gnome-font-viewer
 	depends = qt5-wayland
 	depends = gnome-system-monitor
 	depends = signal-desktop
@@ -49,5 +47,6 @@ pkgbase = dot166-metapackage
 	depends = dunst
 	depends = hyprshot
 	depends = otf-font-awesome
+	depends = kitty
 
 pkgname = dot166-metapackage
