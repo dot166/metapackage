@@ -49,5 +49,8 @@ pkgbase = dot166-metapackage
 	depends = mission-center
 	depends = nautilus
 	depends = leafpad
+	depends = figlet
+	depends = lolcat
+	depends = thefuck
 
 pkgname = dot166-metapackage

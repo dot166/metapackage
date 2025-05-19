@@ -6,7 +6,6 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Jasper-Pink-Dark
-MetacityTheme=Jasper-Pink-Dark
 IconTheme=Tela-circle-Dark
 CursorTheme=Jasper-cursors
 ButtonLayout=close,minimize,maximize:menu
