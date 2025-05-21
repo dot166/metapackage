@@ -21,6 +21,7 @@ post_install() {
   echo "copying dotfiles"
   cp -r "dots" "$user_dir"
   echo "done"
+  pwd
 }
 
 post_upgrade() {
@@ -39,6 +40,7 @@ post_upgrade() {
   echo "copying dotfiles"
   cp -r "dots" "$user_dir"
   echo "done"
+  pwd
 }
 
 post_remove() {
