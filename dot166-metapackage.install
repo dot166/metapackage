@@ -5,6 +5,34 @@ pre_install() {
   mv "$user_dir/.zshrc" "$user_dir/.zshrc.old"
 }
 
+post_install() {
+  echo "installing dark theme"
+  git clone https://github.com/vinceliuice/Jasper-gtk-theme.git
+  cd Jasper-gtk-theme
+  chmod +x ./install.sh
+  ./install.sh -t pink -l -c dark
+  cd ..
+  rm -rf Jasper-gtk-theme
+  echo "done"
+  echo "copying dotfiles"
+  cp -r dots/* "$user_dir"
+  echo "done"
+}
+
+post_upgrade() {
+  echo "installing dark theme"
+  git clone https://github.com/vinceliuice/Jasper-gtk-theme.git
+  cd Jasper-gtk-theme
+  chmod +x ./install.sh
+  ./install.sh -t pink -l -c dark
+  cd ..
+  rm -rf Jasper-gtk-theme
+  echo "done"
+  echo "copying dotfiles"
+  cp -r dots/* "$user_dir"
+  echo "done"
+}
+
 post_remove() {
   echo "Restoring old .zshrc"
   mv "$user_dir/.zshrc.old" "$userdir/.zshrc"
