@@ -18,9 +18,7 @@ post_install() {
   cd ..
   rm -rf Jasper-gtk-theme
   echo "done"
-  echo "copying dotfiles"
-  cp -r "$user_dir/Desktop/metapackage/dots/*" "$user_dir"
-  echo "done"
+  echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
 }
 
 post_upgrade() {
@@ -36,9 +34,7 @@ post_upgrade() {
   cd ..
   rm -rf Jasper-gtk-theme
   echo "done"
-  echo "copying dotfiles"
-  cp -r "$user_dir/Desktop/metapackage/dots/*" "$user_dir"
-  echo "done"
+  echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
 }
 
 post_remove() {
