@@ -11,7 +11,7 @@ post_install() {
   cd Jasper-gtk-theme
   chmod +x ./install.sh
   ./install.sh -t pink -l -c dark
-  mkdir -p $user_dir/.config/gtk-4.0"
+  mkdir -p "$user_dir/.config/gtk-4.0"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/assets" "$user_dir/.config/gtk-4.0/assets"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk.css" "$user_dir/.config/gtk-4.0/gtk.css"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk-dark.css" "$user_dir/.config/gtk-4.0/gtk-dark.css"
@@ -29,7 +29,7 @@ post_upgrade() {
   cd Jasper-gtk-theme
   chmod +x ./install.sh
   ./install.sh -t pink -l -c dark
-  mkdir -p $user_dir/.config/gtk-4.0"
+  mkdir -p "$user_dir/.config/gtk-4.0"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/assets" "$user_dir/.config/gtk-4.0/assets"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk.css" "$user_dir/.config/gtk-4.0/gtk.css"
   ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk-dark.css" "$user_dir/.config/gtk-4.0/gtk-dark.css"
