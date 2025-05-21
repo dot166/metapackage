@@ -19,7 +19,7 @@ post_install() {
   rm -rf Jasper-gtk-theme
   echo "done"
   echo "copying dotfiles"
-  cp -r "./dots/*" "$user_dir"
+  cp -r "dots" "$user_dir"
   echo "done"
 }
 
@@ -37,7 +37,7 @@ post_upgrade() {
   rm -rf Jasper-gtk-theme
   echo "done"
   echo "copying dotfiles"
-  cp -r "./dots/*" "$user_dir"
+  cp -r "dots" "$user_dir"
   echo "done"
 }
 
