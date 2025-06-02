@@ -110,3 +110,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
+
+export QT_QPA_PLATFORMTHEME=gtk3
+
+rm -rf $HOME/.cache/hyfetch # force enable easter egg in hyfetch

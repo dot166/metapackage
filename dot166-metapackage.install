@@ -6,34 +6,12 @@ pre_install() {
 }
 
 post_install() {
-  echo "installing dark theme"
-  git clone https://github.com/vinceliuice/Jasper-gtk-theme.git
-  cd Jasper-gtk-theme
-  chmod +x ./install.sh
-  ./install.sh -t pink -l -c dark
-  mkdir -p "$user_dir/.config/gtk-4.0"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/assets" "$user_dir/.config/gtk-4.0/assets"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk.css" "$user_dir/.config/gtk-4.0/gtk.css"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk-dark.css" "$user_dir/.config/gtk-4.0/gtk-dark.css"
-  cd ..
-  rm -rf Jasper-gtk-theme
-  echo "done"
+  echo "error: please run installtheme.sh to manually install the theme because PKGBUILDs are dumb and for some reason the theme would not install"
   echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
 }
 
 post_upgrade() {
-  echo "installing dark theme"
-  git clone https://github.com/vinceliuice/Jasper-gtk-theme.git
-  cd Jasper-gtk-theme
-  chmod +x ./install.sh
-  ./install.sh -t pink -l -c dark
-  mkdir -p "$user_dir/.config/gtk-4.0"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/assets" "$user_dir/.config/gtk-4.0/assets"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk.css" "$user_dir/.config/gtk-4.0/gtk.css"
-  ln -sf "/usr/share/themes/Jasper-Pink-Dark/gtk-4.0/gtk-dark.css" "$user_dir/.config/gtk-4.0/gtk-dark.css"
-  cd ..
-  rm -rf Jasper-gtk-theme
-  echo "done"
+  echo "error: please run installtheme.sh to manually install the theme because PKGBUILDs are dumb and for some reason the theme would not install"
   echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
 }
 
