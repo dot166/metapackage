@@ -31,7 +31,6 @@ pkgbase = dot166-metapackage
 	depends = ntfs-3g
 	depends = rustrover
 	depends = rustrover-jre
-	depends = sddm
 	depends = hyprland
 	depends = hyprpaper
 	depends = waybar
@@ -62,5 +61,6 @@ pkgbase = dot166-metapackage
 	depends = gnome-online-accounts-gtk
 	depends = gvfs-smb
 	depends = gnome-calendar
+	optdepends = sddm
 
 pkgname = dot166-metapackage
