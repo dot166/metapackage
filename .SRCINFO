@@ -38,7 +38,7 @@ pkgbase = dot166-metapackage
 	depends = eww
 	depends = ttf-jetbrains-mono-nerd
 	depends = xdg-desktop-portal-hyprland
-	depends = cargo
+	depends = rustup
 	depends = nwg-look
 	depends = network-manager-applet
 	depends = dunst
@@ -61,6 +61,6 @@ pkgbase = dot166-metapackage
 	depends = gnome-online-accounts-gtk
 	depends = gvfs-smb
 	depends = gnome-calendar
-	optdepends = sddm
+	depends = emptty
 
 pkgname = dot166-metapackage
