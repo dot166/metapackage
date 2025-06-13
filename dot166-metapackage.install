@@ -1,10 +1,3 @@
-user_name=`echo ${SUDO_USER:-$(whoami)}`
-user_dir="/home/${user_name}"
-pre_install() {
-  echo "Backing up .zshrc"
-  mv "$user_dir/.zshrc" "$user_dir/.zshrc.old"
-}
-
 post_install() {
   echo "error: please run installtheme.sh to manually install the theme because PKGBUILDs are dumb and for some reason the theme would not install"
   echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
@@ -13,9 +6,4 @@ post_install() {
 post_upgrade() {
   echo "error: please run installtheme.sh to manually install the theme because PKGBUILDs are dumb and for some reason the theme would not install"
   echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
-}
-
-post_remove() {
-  echo "Restoring old .zshrc"
-  mv "$user_dir/.zshrc.old" "$userdir/.zshrc"
 }
