@@ -1,6 +1,6 @@
 pkgbase = dot166-metapackage
 	pkgdesc = metapackage for common applications and dotfiles
-	pkgver = 5
+	pkgver = 6
 	pkgrel = 1
 	arch = x86_64
 	license = GPL

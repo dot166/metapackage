@@ -1,6 +1,6 @@
 # Maintainer: ._______166
 pkgname=dot166-metapackage
-pkgver=5
+pkgver=6
 pkgrel=1
 pkgdesc="metapackage for common applications and dotfiles"
 arch=('x86_64')
