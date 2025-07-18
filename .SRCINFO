@@ -2,7 +2,6 @@ pkgbase = dot166-metapackage
 	pkgdesc = metapackage for common applications and dotfiles
 	pkgver = 5
 	pkgrel = 1
-	install = dot166-metapackage.install
 	arch = x86_64
 	license = GPL
 	depends = grapheneos-devel
