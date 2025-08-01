@@ -56,9 +56,10 @@ pkgbase = dot166-metapackage
 	depends = thefuck
 	depends = hyprpolkitagent
 	depends = gvfs
-	depends = gvfs-google
-	depends = gnome-online-accounts-gtk
 	depends = gvfs-smb
 	depends = emptty
+	depends = bottles
+	depends = blueman-applet
+	depends = joplin
 
 pkgname = dot166-metapackage
