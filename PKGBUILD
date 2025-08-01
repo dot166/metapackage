@@ -23,8 +23,6 @@ makedepends=()
 #}
 
 package() {
-  systemctl enable emptty
-  systemctl enable --now waydroid-container
   echo "error: please run installtheme.sh to manually install the theme because PKGBUILDs are dumb and for some reason the theme would not install"
   echo "error: please copy dotfiles manually because PKGBUILDs are dumb and for some reason copying files are not working"
 }
