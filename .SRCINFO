@@ -59,7 +59,7 @@ pkgbase = dot166-metapackage
 	depends = gvfs-smb
 	depends = emptty
 	depends = bottles
-	depends = blueman-applet
+	depends = blueman
 	depends = joplin
 
 pkgname = dot166-metapackage
