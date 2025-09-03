@@ -56,8 +56,8 @@ pkgbase = dot166-metapackage
 	depends = sddm
 	depends = blueman
 	depends = joplin-bin
+	depends = flatpak
 	optdepends = ntfs-3g
-	optdepends = bottles
 	optdepends = libvirt
 	optdepends = virt-manager
 	optdepends = qemu-full
@@ -65,5 +65,7 @@ pkgbase = dot166-metapackage
 	optdepends = dnsmasq
 	optdepends = maliit-keyboard
 	optdepends = qt5-wayland
+	optdepends = obs-studio
+	optdepends = minecraft-launcher
 
 pkgname = dot166-metapackage
